@@ -27,7 +27,7 @@ const count = ref(0)
       <div class="card-info">
         <h2 id="arrival-heading">New Arrivals</h2>
         <img src="https://media.istockphoto.com/id/482948743/photo/blank-white-t-shirt-front-with-clipping-path.jpg?s=612x612&w=0&k=20&c=cJG_B0mOIG42FKtC_rqIeZCClYOj7UCFNNs9WTkYEEE=">
-        <div class="btn-wrapper">
+        <div class="button">
           <button id="details1">Details</button>
         </div>
         <p id="p1">These t-shirts have just arrived!</p>

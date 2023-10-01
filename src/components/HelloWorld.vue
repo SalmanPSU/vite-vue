@@ -39,7 +39,7 @@ const count = ref(0)
           <h2 id="arrival-heading">New Arrivals</h2>
           <img src="https://cdn.pixabay.com/photo/2016/03/25/09/04/t-shirt-1278404_1280.jpg" alt="new arrivals">
             <div class="button">
-              <button id="dtl1">Details</button>
+              <button id="details1">Details</button>
             </div>
           <p id="p1">We have new t-shirts!</p>
        </div>
@@ -87,25 +87,25 @@ h1 {
   margin-bottom: 16px;
 }
 
-.btn-wrapper {
+.button {
   margin: 24px auto;
 }
 
-.btn-wrapper button {
+.button button {
   margin-left: 8px;
   margin-right: 8px;
   font-family: Monospace;
   font-size: 16px;
-  color: blue;
+  color: black;
   background-color: white;
   transition: transform 0.3s;
 }
 
-.btn-wrapper button:hover,
-.btn-wrapper button:focus {
+.button button:hover,
+.button button:focus {
   font-size: 16px;
   color: white;
-  background-color: #008aff;
+  background-color: #9dcc8b;
   transform: scale(1.2);
 }
 

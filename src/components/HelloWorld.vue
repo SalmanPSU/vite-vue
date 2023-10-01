@@ -112,7 +112,7 @@ h1 {
 }
 
 .remove-bg {
-  background-color: white;
+  background-color: #F4FAFC;
 }
 
 .card img {
@@ -236,19 +236,6 @@ export default {
             isHidden3 = true;
         }
     });
-
-    // //Scale card on hover
-    // const allCards = document.querySelectorAll('.card'); 
-
-    // allCards.forEach(function(card) {           
-    //     card.addEventListener('mouseenter', function() {
-    //         card.style.backgroundColor = '#008aff';
-    //     });
-
-    //     card.addEventListener('mouseleave', function() {
-    //         card.style.backgroundColor = '';
-    //     });
-    // });
   }
 }
 </script>

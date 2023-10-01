@@ -100,8 +100,8 @@ h1 {
 }
 
 .card {
-  max-width: 300px;
-  background-color: #9dcc8b;
+  max-width: 250px;
+  background-color: gray;
   border: 1px solid black;
   margin: 16px;
   padding: 16px;
@@ -111,19 +111,23 @@ h1 {
   transition: transform 0.3s;
 }
 
+.remove-bg {
+  background-color: #F4FAFC;
+}
 
 .card img {
-  width: 275px;
-  height: 300px;
-  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
 }
 
-.remove-bg {
-  background-color: white;
+.card-info {
+  text-align: center;
+  margin-top: 8px;
 }
 
-@media (max-width: 800px) {
-  .button {
+@media (max-width: 799px) {
+  .btn-wrapper {
     display: none;
   }
 }

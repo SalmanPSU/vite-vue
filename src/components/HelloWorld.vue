@@ -9,9 +9,9 @@ const count = ref(0)
 </script>
 
 <template>
-  <header>
+  <div class="title">
     <h1>Clothing Store</h1>
-  </header>
+  </div>
 
   <div class="btn-wrapper">
     <button id="duplicate">Duplicate</button>
@@ -61,13 +61,13 @@ const count = ref(0)
 
 <style scoped>
 body {
-  font-family: Monospace;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-header {
-  background-color: #008aff;
-  color: white;
+.title {
+  background-color: #9dcc8b;
+  color: black;
   padding: 16px;
 }
 

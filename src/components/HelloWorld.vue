@@ -89,7 +89,7 @@ h1 {
 }
 
 .card {
-  max-width: 300px;
+  max-width: 250px;
   background-color: #9dcc8b;
   border: 1px solid black;
   margin: 16px;
@@ -110,7 +110,7 @@ h1 {
   background-color: white;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
   .button {
     display: none;
   }

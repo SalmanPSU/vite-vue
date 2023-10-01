@@ -20,8 +20,10 @@ const count = ref(0)
     <button id="heading">Change heading</button>
   </div>
 
-  <div class="card">
-    <section id="arrivals">
+
+  <div class="cards">
+
+    <section class="card" id="arrivals">
         <h2 id="arrival-heading">New Arrivals</h2>
         <img src="https://cdn.pixabay.com/photo/2016/03/25/09/04/t-shirt-1278404_1280.jpg" alt="new arrivals">
         <div class="button">
@@ -30,7 +32,7 @@ const count = ref(0)
         <p id="p1">We have new t-shirts!</p>
       </section>
 
-    <section id="deals">
+    <section class="card" id="deals">
         <h2>Deals</h2>
         <img src="https://img.freepik.com/premium-vector/stock-clearance-sale-banner-design_1588-914.jpg?w=2000">
         <div class="button">
@@ -39,7 +41,7 @@ const count = ref(0)
         <p id="p2">We have 70% off on football jerseys!</p>
     </section>
 
-    <section id="faqs">
+    <section class="card" id="faqs">
         <h2>FAQs</h2>
         <img src="https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg">
         <div class="button">
@@ -47,6 +49,7 @@ const count = ref(0)
         </div>
         <p id="p3">Frequently Asked Questions!</p>
     </section>
+
   </div>
 </template>
 
@@ -87,6 +90,13 @@ h1 {
   color: white;
   background-color: #9dcc8b;
   transform: scale(1.2);
+}
+
+.cards {
+  display: flex;
+  max-width: 8000px;
+  margin: auto;
+  justify-content: center;
 }
 
 .card {

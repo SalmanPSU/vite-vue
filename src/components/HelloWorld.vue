@@ -21,7 +21,7 @@ const count = ref(0)
   </div>
 
 
-  <!-- <div class="cards"> -->
+  <div class="cards">
 
     <section class="card" id="arrivals">
         <h2 id="arrival-heading">New Arrivals</h2>
@@ -50,7 +50,7 @@ const count = ref(0)
         <p id="p3">Frequently Asked Questions!</p>
     </section>
 
-  <!-- </div> -->
+  </div>
 </template>
 
 <style scoped>

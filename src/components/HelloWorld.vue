@@ -23,7 +23,7 @@ const count = ref(0)
 
   <div class="cards">
 
-    <section class="card" id="arrivals">
+    <!-- <section class="card" id="arrivals">
       <div class="card-info">
         <h2 id="arrival-heading">New Arrivals</h2>
         <img src="https://media.istockphoto.com/id/482948743/photo/blank-white-t-shirt-front-with-clipping-path.jpg?s=612x612&w=0&k=20&c=cJG_B0mOIG42FKtC_rqIeZCClYOj7UCFNNs9WTkYEEE=">
@@ -32,14 +32,14 @@ const count = ref(0)
         </div>
         <p id="p1">These t-shirts have just arrived!</p>
         </div>
-    </section>
+    </section> -->
 
     <section class="card" id="arrivals">
       <div>
           <h2 id="arrival-heading">New Arrivals</h2>
           <img src="https://cdn.pixabay.com/photo/2016/03/25/09/04/t-shirt-1278404_1280.jpg" alt="new arrivals">
             <div class="button">
-              <button id="details1">Details</button>
+              <button id="dtl1">Details</button>
             </div>
           <p id="p1">We have new t-shirts!</p>
        </div>
@@ -207,7 +207,7 @@ export default {
     });
 
     //New Arrivals Details
-    const newArrivalsDetails = document.querySelector('#details1');
+    const newArrivalsDetails = document.querySelector('#dtl1');
     const newArrivalsParagraph = document.querySelector('#p1');
     let isHidden1 = true;
     newArrivalsParagraph.style.display = 'none'; //hide by default
@@ -223,7 +223,7 @@ export default {
     });
 
     //Deals Details
-    const dealsDetails = document.querySelector('#details2');
+    const dealsDetails = document.querySelector('#dtl2');
     const dealsParagraph = document.querySelector('#p2');
     let isHidden2 = true;
     dealsParagraph.style.display = 'none'; //hide by default
@@ -239,7 +239,7 @@ export default {
     });
 
     //FAQ Details
-    const faqDetails = document.querySelector('#details3');
+    const faqDetails = document.querySelector('#dtl3');
     const faqParagraph = document.querySelector('#p3');
     let isHidden3 = true;
     faqParagraph.style.display = 'none'; //hide by default

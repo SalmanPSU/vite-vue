@@ -20,7 +20,8 @@ const count = ref(0)
     <button id="heading">Change heading</button>
   </div>
 
-    <section class="card" id="arrivals">
+  <div class="card">
+    <section id="arrivals">
         <h2 id="arrival-heading">New Arrivals</h2>
         <img src="https://cdn.pixabay.com/photo/2016/03/25/09/04/t-shirt-1278404_1280.jpg" alt="new arrivals">
         <div class="button">
@@ -29,7 +30,7 @@ const count = ref(0)
         <p id="p1">We have new t-shirts!</p>
       </section>
 
-    <section class="card" id="deals">
+    <section id="deals">
         <h2>Deals</h2>
         <img src="https://img.freepik.com/premium-vector/stock-clearance-sale-banner-design_1588-914.jpg?w=2000">
         <div class="button">
@@ -38,7 +39,7 @@ const count = ref(0)
         <p id="p2">We have 70% off on football jerseys!</p>
     </section>
 
-    <section class="card" id="faqs">
+    <section id="faqs">
         <h2>FAQs</h2>
         <img src="https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_1280.jpg">
         <div class="button">
@@ -46,7 +47,7 @@ const count = ref(0)
         </div>
         <p id="p3">Frequently Asked Questions!</p>
     </section>
-
+  </div>
 </template>
 
 <style scoped>
@@ -90,7 +91,7 @@ h1 {
 
 .card {
   max-width: 250px;
-  background-color: #9dcc8b;
+  background-color: gray;
   border: 1px solid black;
   margin: 16px;
   padding: 16px;
@@ -100,18 +101,23 @@ h1 {
   transition: transform 0.3s;
 }
 
-.card img {
-  width: 275px;
-  height: 300px;
-  border-radius: 10px;
+.remove-bg {
+  background-color: #F4FAFC;
 }
 
-.remove-bg {
-  background-color: white;
+.card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+
+.card-info {
+  text-align: center;
+  margin-top: 8px;
 }
 
 @media (max-width: 799px) {
-  .button {
+  .btn-wrapper {
     display: none;
   }
 }

@@ -119,7 +119,7 @@ h1 {
 }
 
 .remove-bg {
-  background-color: white;
+  background-color: #242424;
 }
 
 @media (max-width: 800px) {

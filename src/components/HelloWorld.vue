@@ -24,14 +24,14 @@ const count = ref(0)
   <div class="cards">
 
     <section class="card" id="arrivals">
-      <div>
+      <!-- <div> -->
         <h2 id="arrival-heading">New Arrivals</h2>
         <img src="https://cdn.pixabay.com/photo/2016/03/25/09/04/t-shirt-1278404_1280.jpg" alt="new arrivals">
         <div class="button">
           <button id="dtl1">Details</button>
         </div>
         <p id="p1">We have new t-shirts!</p>
-       </div>
+       <!-- </div> -->
       </section>
 
     <section class="card" id="deals">

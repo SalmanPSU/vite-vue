@@ -13,7 +13,7 @@ const count = ref(0)
     <h1>Clothing Store</h1>
   </div>
 
-  <div class="btn-wrapper">
+  <div class="button">
     <button id="duplicate">Duplicate</button>
     <button id="delcard">Delete card</button>
     <button id="background">Toggle background color</button>
